@@ -1,0 +1,138 @@
+/* Header Section */
+header {
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+/* Section Formatting */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+}
+/* Headings Style */
+h2 {
+  color: #4A90E2;
+  border-bottom: 2px solid #4A90E2;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs and Lists */
+p, li {
+  font-size: 16px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Center Contact Links */
+#contact a {
+  color: #4A90E2;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Subtle hover effect on sections */
+section:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease-in-out;
+}
+/* Profile Picture Styling */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: block;
+  margin: 0 auto 15px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  section {
+    width: 90%;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
+/* Contact Icons */
+#contact i {
+  color: #4A90E2;
+  margin-right: 8px;
+}
+
+#contact a {
+  color: #4A90E2;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+/* Download Resume Button */
+.download-btn {
+  display: inline-block;
+  background-color: white;
+  color: #4A90E2;
+  border: 2px solid #4A90E2;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #4A90E2;
+  color: white;
+  transform: scale(1.05);
+}
+
+
