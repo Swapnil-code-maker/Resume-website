@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swapnil Soni | Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== Global Styles ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+    color: #333;
+}
+.resume-container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 25px;
+}
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #3498db;
+}
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+header .subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 10px;
+}
+header .summary {
+    font-size: 0.95rem;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto 10px;
+}
+.header-contact a {
+    text-decoration: none;
+    color: #3498db;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* ===== Sections ===== */
+section {
+    margin-bottom: 25px;
+}
+section h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* ===== Education ===== */
+.education-item h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+.education-item p {
+    margin-bottom: 3px;
+    color: #555;
+}
+.education-item .date {
+    font-style: italic;
+    color: #777;
+}
+
+/* ===== Skills ===== */
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+}
+.skills-list li {
+    background-color: #eaf2f8;
+    color: #3498db;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid #3498db;
+}
+
+/* ===== Projects ===== */
+.project-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.project-item p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+.project-item span {
+    font-size: 0.8rem;
+    background-color: #3498db;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/* ===== Contact ===== */
+#contact p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+#contact a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+}
+
+/* ===== Print Styles ===== */
+@media print {
+    body {
+        background: #fff;
+        color: #000;
+    }
+    .resume-container {
+        box-shadow: none;
+        border-radius: 0;
+    }
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8rem;
+    }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 1.6rem;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
+</style>
+</head>
+<body>
+
+<main class="resume-container">
+    <header>
+        <img src="profile.jpg" alt="Swapnil Soni">
+        <h1>Swapnil Soni</h1>
+        <p class="subtitle">B.Tech CSE Student • Aspiring Software Engineer</p>
+        <p class="summary">
+            Passionate Computer Science student with strong fundamentals in programming and backend development. Eager to contribute to impactful projects and grow as a professional software engineer.
+        </p>
+        <div class="header-contact">
+            <a href="mailto:itsswapnil0@gmail.com">itsswapnil0@gmail.com</a>
+            <a href="https://www.linkedin.com/in/swapnil-soni-20162326b/" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>B.Tech in Computer Science and Engineering</h3>
+            <p><strong>VIT Bhopal University</strong></p>
+            <p class="date">2024 – 2028</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>C (Basic Knowledge)</li>
+            <li>C++ (Basic Knowledge)</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>SQL / MySQL / PostgreSQL</li>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Resume Website</h3>
+            <p>A personal resume website built to showcase my skills and projects.</p>
+        </div>
+        <div class="project-item">
+            <h3>Stock & Cryptocurrency Price Prediction Web App</h3>
+            <p>Implemented ML model and data processing for financial predictions.</p>
+        </div>
+        <div class="project-item">
+            <h3>Campus Course & Records Manager (CCRM)</h3>
+            <p>Desktop Java application for managing student courses and academic records.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: itsswapnil0@gmail.com</p>
+        <p>GitHub: github.com/swapnil-code-maker</p>
+        <p>LinkedIn: linkedin.com/in/swapnil-soni</p>
+    </section>
+</main>
+
+</body>
+</html>
